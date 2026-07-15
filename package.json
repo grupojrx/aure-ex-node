@@ -1,0 +1,45 @@
+{
+  "name": "@aure-ex/sdk",
+  "version": "0.1.0",
+  "description": "SDK oficial da API AureEX para Node.js / TypeScript (tipado via OpenAPI)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aureex",
+    "aure-ex",
+    "crypto",
+    "payments",
+    "sdk",
+    "openapi"
+  ],
+  "homepage": "https://api.aure-ex.com/docs/sdks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grupojrx/aure-ex-node.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}
