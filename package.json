@@ -1,6 +1,6 @@
 {
   "name": "@aure-ex/sdk",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "SDK oficial da API AureEX para Node.js / TypeScript (tipado via OpenAPI)",
   "type": "module",
   "main": "./dist/index.js",
